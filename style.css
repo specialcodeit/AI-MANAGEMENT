@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: linear-gradient(to right, #100B1E ,#351C39);
+    height: 70vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+nav div:first-child {
+    /* border: 2px solid red; */
+}
+
+nav div:last-child {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav div:last-child a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+nav div:last-child a:nth-child(6) {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 5px;
+    background: linear-gradient(to right, #35429B, #802EAC);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+nav div:last-child a:last-child {
+    border: 1px solid #802EAC;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+header section {
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 20px 100px;
+    color: white;
+}
+
+header section div:first-child {
+    /* border: 2px solid red; */
+    width: 80%;
+    padding: 120px 0px;
+}
+
+header section div:first-child  h1 {
+    /* border: 2px solid red; */
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family: "Orbitron", sans-serif;
+    padding-bottom: 20px;
+}
+
+header section div:first-child  p {
+    font-size: 1.2rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+}
+
+header section div:first-child div {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+header section div:first-child div a:first-child {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background: linear-gradient(to right, #35429B, #802EAC);
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 12px;
+}
+
+header section div:first-child div a:last-child {
+    border: 1px solid #802EAC;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 12px;
+
+}
+ 
+header section div:last-child {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-left: 20px;
+}
+
+
+.about-us-section {
+    /* border: 2px solid red; */
+    background: linear-gradient(to right,#351C39, #100B1E );
+    /* height: 80vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 400px 50px 300px;
+}
+
+.about-us-section div:first-child {
+    /* border: 2px solid red; */
+margin-top: 30px;
+}
+
+.about-us-section div:last-child {
+    /* border: 2px solid red; */
+    color: #fff;
+    margin-top: 200px;
+
+}
+
+.about-us-section div:last-child h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.about-us-section div:last-child h3 {
+    font-size: 1.5rem;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us-section div:last-child p {
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+
+.about-us-btn {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-us-btn a:first-child {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background: linear-gradient(to right, #35429B, #802EAC);
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 12px;   
+}
+
+.about-us-btn a:last-child {
+    border: 1px solid #802EAC;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 12px;
+}
+
+
+.features-section {
+    /* border: 2px solid red; */
+    /* height: 70vh; */
+    /* margin-bottom: 400px; */
+    padding: 50px 400px 50px 350px;
+    background: linear-gradient(to right,#351C39, #100B1E );
+}
+
+.features-section section {
+    /* border: 2px solid red; */
+    width: 25%;
+    text-align: center;
+    color: #fff;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+.features-section p {
+    font-size: 1.1rem;
+    /* padding-bottom: 25px; */
+}
+
+.position-elements {
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    position: relative;
+}
+
+.main-img {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.position-elements div img:nth-child(1) {
+    /* border: 2px solid red; */
+    position: absolute;
+    /* height: 16vh; */
+    top: 80px;
+    left: 15%;
+}
+
+.position-elements div img:nth-child(2) {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    right: 15%;
+}
+
+.position-elements div img:nth-child(3) {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    right: -3%;
+}
+
+.position-elements div img:nth-child(4) {
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 8%;
+    right: 12%;
+}
+
+.position-elements div img:nth-child(5) {
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 8%;
+    left: 17%;
+}
+
+.position-elements div img:nth-child(6) {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    left: -4%;
+}
+
+
+.use-case-section {
+    /* height: 70vh; */
+    /* width: 100%; */
+    /* margin-bottom: 400px; */
+    /* border: 2px solid red; */
+    /* padding: 50px; */
+    text-align: center;
+    background: linear-gradient(to right,#351C39, #100B1E );
+    color: #fff;
+}
+
+.use-case-section h2 {
+    font-size: 2rem;
+    line-height: 24px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.use-case-section p {
+    font-size: 1.1rem;
+    /* padding-bottom: 25px; */
+}
+
+.use-case-section div:last-child {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.use-case-section div:last-child img {
+    width: 24%;
+    padding: 50px 10px;
+}
+
+.pricing-section {
+    /* border: 2px solid red; */
+    text-align: center;
+    background: linear-gradient(to right,#351C39, #100B1E );
+    color: #fff;
+}
+
+.pricing-section h2 {
+    font-size: 2rem;
+    line-height: 24px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.pricing-section p {
+    font-size: 1.1rem;
+    /* padding-bottom: 25px; */
+}
+
+.pricing-section div:last-child {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.pricing-section div:last-child img {
+    width: 30%;
+    padding: 50px 10px;
+}
+
+footer {
+    background: linear-gradient(to right,#28162F, #030414);
+    /* margin-bottom: 400px; */
+    padding-left: 130px;
+}
+
+footer section {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px 50px 20px 50px;
+}
+
+footer section div:first-child p {
+    /* border: 2px solid red; */
+    width: 70%;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 10px 0px 15px 0px;
+}
+
+footer section div h3 {
+    color: gray;
+    padding: 0px 0px 20px 0px;
+}
+
+footer section div a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    padding: 5px 0px;
+    font-size: 1.1rem;   
+}
+
+hr {
+    margin: 0px 230px 0px 50px;
+    border: 1px solid #351C39;
+}
+
+.rights-reserved {
+    /* border: 2px solid red; */
+    padding: 10px 50px;
+    color: gray;
+    display: flex;
+    gap: 10px;
+}
